@@ -11,7 +11,6 @@ end
 exterate(itr::I,len::Int) where I = Exterate(itr,len)
 
 function eltype(::Type{Exterate{I}}) where I
-    @show eltype(I)
     eltype(I)
 end
 
